@@ -1,8 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
+root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -24,6 +24,40 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+.ResumePage {
+  width: fit-content;
+  position: relative;
+  margin: 100px auto 0px;
+  text-align: center;
+}
+
+.resumeview {
+  pointer-events: none;
+}
+
+.downloadCV {
+  cursor: pointer;
+  margin: 25px 0px;
+  width: 200px;
+  height: 40px;
+  background-color: #800c58;
+  color: #e7e7e7;
+  text-decoration: none;
+  border-radius: 5px;
+  border-style: none;
+  transition: all 0.5s;
+}
+.loader {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.downloadCV:hover {
+  transition: all 0.5s;
+  background-color: #1a1553;
+  color: #800c58;
 }
 
 @layer utilities {
