@@ -20,6 +20,11 @@ const config: Config = {
       fontFamily: {
         urbanist: ["Urbanist", "sans-serif"],
       },
+      screens: {
+        smaller: "1280px",
+        medium: "1700px",
+        extra: "1900px",
+      },
     },
   },
   darkMode: "class",

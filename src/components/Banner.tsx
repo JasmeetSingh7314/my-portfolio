@@ -91,10 +91,10 @@ export default function Banner() {
   const charArray = textToChar("Jasmeet Singh");
 
   return (
-    <section className=" banner w-full xl:px-48 sm:px-2 xs:px-2 dark:text-gray-100 ">
-      <div className="container flex sm:flex-col  justify-center px-2 py-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
+    <section className=" banner w-full lg:px-8  xl:px-20 2xl:px-28 medium:px-40 extra:px-40   sm:px-2 xs:px-2 dark:text-gray-100 ">
+      <div className="container flex  justify-center px-2 py-6 mx-auto sm:py-12  lg:flex-row lg:justify-between">
         <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
-          <h1 className="text-5xl  font-bold leading-0 sm:text-6xl">
+          <h1 className="text-5xl  font-bold leading-0 lg:text-5xl xl:text-6xl 2xl:text-6xl">
             <span className="hi dark:text-violet-400">Hi!</span>
             <br />I am
             <span className="flex justify-center">
@@ -105,7 +105,7 @@ export default function Banner() {
               ))}
             </span>
           </h1>
-          <span className="  mt-6 mb-8  text-3xl sm:mb-12 uppercase font-extrabold text-transparent bg-gradient-to-tr from-indigo-500  to-indigo-100 bg-clip-text text-urbanist">
+          <span className="  mt-6 mb-8 text-2xl xl:text-2xl 2xl:text-3xl sm:mb-12 uppercase font-extrabold text-transparent bg-gradient-to-tr from-indigo-500  to-indigo-100 bg-clip-text text-urbanist">
             <Typewriter
               options={{
                 strings: roles,
@@ -138,9 +138,9 @@ export default function Banner() {
             </Link>
           </div>
         </div>
-        <div className="lg:flex  hidden items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
+        <div className="lg:flex  hidden items-center justify-center p-6 mt-8 lg:mt-0 lg:w-2/3 xl:w-2/3 2xl:w-3/5 2xl:pb-14 h-full  ">
           {/* <Image src={logo}  alt="banner_img" /> */}
-          <Lottie options={defaultOptions} height={400} />
+          <Lottie options={defaultOptions}  />
         </div>
       </div>
     </section>

@@ -7,7 +7,7 @@ import { useEffect } from "react";
 import { ScrollTrigger } from "gsap/all";
 import { Image } from "@nextui-org/react";
 
-export default function photoPage() {
+const PhotoPage = () => {
   gsap.registerPlugin(ScrollTrigger);
   useEffect(() => {
     let ctx = gsap.context(() => {
@@ -53,7 +53,7 @@ export default function photoPage() {
       className="flex flex-col h-full items-center gap-20 justify-center  md:p-8  sm:p-2  lg:p-24 "
     >
       <div className="mobile-slab  sm:photo_slab flex flex-col items-center justify-center mb-8">
-        <span className="sm:text_jab sm:text-right md:my-10 sm:my-8  relative text-center ml-10  text-8xl sm:text-9xl  pr-32  sm:ml-12 pt-32 sm:pt-12 sm:pb-12 py-16 tracking-tighter  backdrop-blur-sm sm:bg-me-with-himalayas rounded-md sm:h-[500px] bg-opacity-65 bg-cover text-white sm:text-black w-[80vw] ">
+        <span className="sm:text_jab sm:text-right md:my-10 sm:my-8 pl-4  relative text-center ml-10  text-6xl  sm:text-9xl  pr-32  sm:ml-12 pt-32 sm:pt-12 sm:pb-3 py-16 tracking-tighter  backdrop-blur-sm sm:bg-me-with-himalayas rounded-md sm:h-[500px] bg-opacity-65 bg-cover text-white sm:text-black w-[80vw] ">
           <Typewriter
             options={{
               strings: ["WildLife", "Birds", "Nature"],
@@ -66,4 +66,6 @@ export default function photoPage() {
       </div>
     </main>
   );
-}
+};
+
+export default PhotoPage;

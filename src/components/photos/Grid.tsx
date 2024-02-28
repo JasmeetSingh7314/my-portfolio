@@ -23,7 +23,7 @@ export default function Grid() {
       t2.fromTo(
         ".photo-card ",
         {
-          y: 300,
+          y: 200,
           opacity: 0.6,
         },
         {
@@ -41,7 +41,7 @@ export default function Grid() {
   return (
     <section className="  w-5/6 py-6 px-6  dark:text-gray-50">
       <div
-        className="  container grid grid-cols-2 gap-4  mx-auto sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
+        className="  container grid grid-cols-1 gap-4  mx-auto sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
         ref={comp}
       >
         {photos.map((element, index) => (

@@ -45,12 +45,12 @@ export default function About() {
   }, []);
   return (
     <section id="about" className=" about sm:about-section dark:text-gray-100">
-      <div className="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
+      <div className="container max-w-xl p-2 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
         <div>
           <h2 className="text-3xl font-bold tracki text-center sm:text-5xl dark:text-gray-50">
             About Me
           </h2>
-          <p className="max-w-3xl mx-auto mt-4 text-xl text-center dark:text-gray-400">
+          <p className="max-w-3xl mx-auto mt-4 md:text-xl text-center dark:text-gray-400">
             Friendly . Curious . Opportunistic
           </p>
         </div>
@@ -59,9 +59,9 @@ export default function About() {
             <h3 className="text-2xl font-bold tracking-widest mb-10 sm:text-4xl dark:text-gray-50">
               Background
             </h3>
-            <span className=" words text-wrap  mt-6 mb-8  text-xl text-white/[0.76] sm:mb-12 text-urbanist">
+            <span className=" words text-wrap  mt-6 mb-8  md:text-xl xl:text-lg 2xl:text-xl text-white/[0.76] sm:mb-12 text-urbanist">
               <span className="mb-8">
-                Hey, I’m Jasmeet! I grew up in the beautiful city of Delhi and
+                Hey, I am Jasmeet! I grew up in the beautiful city of Delhi and
                 love all things creative. From the humid forests to the vibrant
                 city streets, my surroundings have always fueled my passion for
                 creativeness and coding. <br />
@@ -73,8 +73,8 @@ export default function About() {
                 front-end development{" "}
               </span>
               , where I craft interactive experiences that are not just
-              functional, but also visually stunning. <br /> When I'm not
-              coding, you'll find me exploring various topics ranging from
+              functional, but also visually stunning. <br /> When I amm not
+              coding, you will find me exploring various topics ranging from
               History to Wildlife. I love wildlife and am a secret amateur
               photographer myself check out my work{" "}
               <a href="/photos" className="italic text-gray-200">
@@ -82,18 +82,18 @@ export default function About() {
               </a>
               <br />
               <span className="mt-6">
-                Join me as I continue to push the boundaries of what's possible
+                Join me as I continue to push the boundaries of what is possible
                 in the digital world!
               </span>
             </span>
-         
+
             <div className="mt-12 space-y-12"></div>
           </div>
           <div
             aria-hidden="true"
-            className="sm:hidden  lg:flex p-10   hidden items-center justify-center  mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128"
+            className=" lg:flex  hidden    lg:mt-0 mb-8 lg:px-48 lg:pb-12 xl:px-0  h-full"
           >
-            <Lottie options={defaultOptions} height={500} />
+            <Lottie options={defaultOptions} />
           </div>
         </div>
       </div>

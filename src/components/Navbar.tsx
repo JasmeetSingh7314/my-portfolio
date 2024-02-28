@@ -54,7 +54,7 @@ export default function NavbarComponent() {
         />
         <NavbarBrand>
           <Link href="/" className="text-white  hidden lg:flex">
-            <p className="font-bold text-inherit text-[12px] ml-0 sm:-ml-32 tracking-widest ">
+            <p className="font-bold text-inherit text-[12px] ml-0 extra:-ml-32 tracking-widest ">
               JASMEET
             </p>
 

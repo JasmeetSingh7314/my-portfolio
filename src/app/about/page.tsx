@@ -9,7 +9,7 @@ export default function AboutPage() {
   return (
     <main
       onMouseMove={handleCursor}
-      className="flex flex-col items-center justify-center p-6 md:p-2 lg:px-16 xl:px-48"
+      className="flex flex-col items-center justify-center p-6 md:p-2 lg:px-16 xl:px-16 2xl:px-28 "
     >
       <About />
       <Technologies />

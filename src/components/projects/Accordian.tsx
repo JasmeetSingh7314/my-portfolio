@@ -10,7 +10,7 @@ export default function Accordian() {
       variant="splitted"
       selectionMode="multiple"
       defaultExpandedKeys={["0"]}
-      className="px-3 xl:px-36 "
+      className="px-3 2xl:px-36 "
     >
       {projects.map((project, id) => (
         <AccordionItem

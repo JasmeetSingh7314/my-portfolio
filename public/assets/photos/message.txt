@@ -1,0 +1,37 @@
+Owl Gaming Platform
+Owl is a revolutionary gaming platform that aims to redefine the gaming industry by introducing a decentralized approach to buying, selling, and owning games. Leveraging cutting-edge technologies such as TypeScript, React.js, Shadcn, and Solidity, Owl offers a unique experience for gamers, ensuring secure transactions, verifiable ownership, and the ability to resell games with reusable licenses.
+
+Features
+NFT-based Ownership
+For every game purchased on Owl, users receive a unique Non-Fungible Token (NFT) associated with that specific game. Each game has its own distinct NFT, providing a secure and verifiable proof of ownership.
+
+License Key Integration
+With the NFT received upon purchase, users also gain access to the corresponding license key for the game. This license key is utilized to activate the purchased game, ensuring a seamless and controlled access process.
+
+Blockchain Integration
+Owl utilizes blockchain technology, specifically the Ethereum network, to push proof of transactions onto the blockchain. This enhances transparency, security, and guarantees that users never lose ownership of their purchased games.
+
+Resell Option with Reusable Licenses
+A unique feature of Owl is the ability to resell games that users have already bought. The platform supports reusable licenses, allowing users to resell their games to others. However, the number of resell transactions is limited, striking a balance between user flexibility and maintaining the integrity of the gaming ecosystem.
+
+Technologies Used
+TypeScript: Owl is developed using TypeScript, providing a statically typed and scalable codebase for enhanced development and maintenance.
+
+React.js: The frontend of Owl is built with React.js, offering a dynamic and responsive user interface for an optimal gaming experience.
+
+Shadcn: Shadcn is used to implement the NFT functionality, ensuring that each game on Owl is associated with a unique and secure Non-Fungible Token.
+
+Solidity: Owl integrates Solidity for smart contract development on the Ethereum blockchain, facilitating the implementation of secure and transparent transactions.
+
+Workflow
+Landing Page
+Users are greeted with a visually stunning landing page containing a curated list of games. Beautiful visual effects implemented using GSAP create an immersive experience, enticing users to explore the platform.
+
+Connect Wallet
+Upon connecting their wallet, users unlock the full potential of Owl, gaining access to features such as buying, selling, and reselling games, as well as managing their NFT-based ownership.
+
+Marketplace Page
+The Marketplace page hosts an extensive list of games, allowing users to select games based on their preferences and make purchases securely using blockchain technology.
+
+Game Page
+After clicking "Buy," users are redirected to a detailed Game Page. This page provides comprehensive information about the selected game, including its description, summary, rating, price, images, and trailer. Below this information, similar games based on genre are presented for personalized recommendations.
