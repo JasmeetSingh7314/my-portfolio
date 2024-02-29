@@ -56,6 +56,7 @@ export const base_photos = [
     name: "White Throated Kingfisher",
     link: "/assets/photos/wtKingfisher.jpg",
   },
+  
 ];
 
 export default function shuffle(array: any[]) {

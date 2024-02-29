@@ -28,23 +28,12 @@ export default function About() {
           duration: 0.6,
         }
       );
-      t1.fromTo(
-        ".about",
-        {
-          y: 100,
-          opacity: 0,
-        },
-        {
-          y: 0,
-          opacity: 1,
-          duration: 0.2,
-        }
-      );
+     
     });
     return () => ctx.revert();
   }, []);
   return (
-    <section id="about" className=" about sm:about-section dark:text-gray-100">
+    <section id="about" className="  lg:about-section dark:text-gray-100">
       <div className="container max-w-xl p-2 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
         <div>
           <h2 className="text-3xl font-bold tracki text-center sm:text-5xl dark:text-gray-50">
@@ -73,7 +62,7 @@ export default function About() {
                 front-end development{" "}
               </span>
               , where I craft interactive experiences that are not just
-              functional, but also visually stunning. <br /> When I amm not
+              functional, but also visually stunning. <br /> When I am not
               coding, you will find me exploring various topics ranging from
               History to Wildlife. I love wildlife and am a secret amateur
               photographer myself check out my work{" "}

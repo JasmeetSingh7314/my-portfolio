@@ -1,50 +1,49 @@
 "use client";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { base_photos } from "@/utils/photo";
 import PhotoCard from "./PhotoCard";
 import shuffle from "@/utils/photo";
 import { gsap } from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
 
 export default function Grid() {
   const [photos, setPhotos] = useState<any[]>([]);
+  gsap.registerPlugin(ScrollTrigger);
   const comp = useRef(null);
   useEffect(() => {
-    const randomized = shuffle(base_photos);
-    setPhotos(randomized);
-
     let ctx = gsap.context(() => {
-      let t2 = gsap.timeline({
+      let t1 = gsap.timeline({
         scrollTrigger: {
-          start: "top",
-          endTrigger: "Footer",
           scrub: 3,
         },
       });
-      t2.fromTo(
-        ".photo-card ",
+      t1.fromTo(
+        ".photo-card",
         {
           y: 200,
-          opacity: 0.6,
+          opacity: 0.78,
         },
         {
-          y: 0,
+          y: 120,
           opacity: 0.98,
-          stagger: 0.34,
+          stagger: 1.45,
           ease: "sine.in",
-          duration: 0.56,
+          duration: 0.3,
         }
       );
     }, comp);
+    // const randomized = shuffle(base_photos);
+    // setPhotos(randomized);
     return () => ctx.revert();
   }, [photos]);
 
   return (
-    <section className="  w-5/6 py-6 px-6  dark:text-gray-50">
+    <section className="  w-5/6 py-6 md:px-6  dark:text-gray-50">
       <div
-        className="  container grid grid-cols-1 gap-4  mx-auto sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
+        className="  container grid grid-cols-1 gap-4 gap-y-28 lg:gap-y-20  mx-auto sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
         ref={comp}
       >
-        {photos.map((element, index) => (
+        {base_photos.map((element, index) => (
           <PhotoCard
             key={index}
             index={index}

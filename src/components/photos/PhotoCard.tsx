@@ -1,6 +1,9 @@
 import { Button, Card, CardFooter, Image } from "@nextui-org/react";
 import Link from "next/link";
+import { useLayoutEffect } from "react";
 import { FaInstagram } from "react-icons/fa";
+import { gsap } from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
 
 export default function PhotoCard({
   index,
@@ -16,7 +19,7 @@ export default function PhotoCard({
       key={index}
       isFooterBlurred
       radius="lg"
-      className={` photo-card ${
+      className={`photo-card  ${
         (index % 5 == 0 && index >= 5) || index == 10
           ? "col-span-1 sm:col-span-2 sm:row-span-2"
           : " "

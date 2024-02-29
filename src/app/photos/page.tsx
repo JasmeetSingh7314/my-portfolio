@@ -3,15 +3,17 @@ import Grid from "@/components/photos/Grid";
 import handleCursor from "@/utils/cursor";
 import Typewriter from "typewriter-effect";
 import { gsap } from "gsap";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import { ScrollTrigger } from "gsap/all";
 import { Image } from "@nextui-org/react";
 
 const PhotoPage = () => {
   gsap.registerPlugin(ScrollTrigger);
+
   useEffect(() => {
     let ctx = gsap.context(() => {
       let t1 = gsap.timeline();
+
       t1.fromTo(
         ".mobile-slab",
         {
@@ -44,6 +46,10 @@ const PhotoPage = () => {
         }
       );
     });
+    
+     
+    
+   
 
     return () => ctx.revert();
   }, []);

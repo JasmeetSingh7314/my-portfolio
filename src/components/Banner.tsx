@@ -124,7 +124,7 @@ export default function Banner() {
                 About
               </Button>
             </Link>
-            <Link
+            <a
               href="/assets/Resume.pdf"
               target="_blank"
               download="Jasmeet_Software_Developer"
@@ -135,12 +135,12 @@ export default function Banner() {
               >
                 Download CV
               </Button>
-            </Link>
+            </a>
           </div>
         </div>
         <div className="lg:flex  hidden items-center justify-center p-6 mt-8 lg:mt-0 lg:w-2/3 xl:w-2/3 2xl:w-3/5 2xl:pb-14 h-full  ">
           {/* <Image src={logo}  alt="banner_img" /> */}
-          <Lottie options={defaultOptions}  />
+          <Lottie options={defaultOptions} />
         </div>
       </div>
     </section>
