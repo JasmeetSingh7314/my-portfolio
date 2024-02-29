@@ -12,9 +12,7 @@ export default function Technologies() {
     let ctx = gsap.context(() => {
       let t1 = gsap.timeline({
         scrollTrigger: {
-          start: "top bottom",
-          end: "bottom top",
-          scrub: 2,
+          scrub: 4,
         },
       });
 

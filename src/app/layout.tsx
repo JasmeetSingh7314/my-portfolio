@@ -24,8 +24,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`dark ${urbanist.className}  `}>
-      <body className="h-max justify-between  flex flex-col">
-        <div className=" md:px-16 px-4 py-2 lg:px-12 xl:px-20 2xl:px-24 extra:px-48 ">
+      <body className=" ">
+        <div className=" md:px-16 px-4 py-2 lg:px-12 xl:px-20 2xl:px-24 extra:px-48 h-screen justify-between  flex flex-col ">
           <NavbarComponent />
           <div className="cursor pointer-events-none hidden md:block fixed left-0 top-0 transition transform bg-opacity-40 bg-white w-[15px] h-[15px] z-50 rounded-full"></div>
 
