@@ -27,7 +27,7 @@ export default function NavbarComponent() {
       link: "/about",
     },
     {
-      name: "Photos",
+      name: "Photos📸",
       link: "/photos",
     },
 
