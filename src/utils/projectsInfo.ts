@@ -25,6 +25,6 @@ export const projects = [
     description:
       "Efficient Support ticket handling made simple! Our system uses round-robin assignment and dynamic agent allocation to streamline ticket resolution, ensuring smooth operations and optimal agent availability",
     imgSrc: "/assets/projects/sts.jpg",
-    link: "",
+    link: "https://github.com/JasmeetSingh7314/Ticket-Resolver",
   },
 ];
