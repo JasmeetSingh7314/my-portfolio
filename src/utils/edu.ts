@@ -2,13 +2,13 @@ export const edu = [
   {
     title: "Guru Tegh Bahadur Institute Of Technology New Delhi, India",
     position: "Bachelor of Technology in Computer Science",
-    duration: "2020 – 2024",
+    duration: "",
     grades: 9.183,
   },
   {
     title: "Rosary Sr. Sec. School,New Delhi, India",
     position: "Class XII, CBSE",
-    grades: '95%',
+    grades: "95%",
   },
 ];
 
