@@ -1,6 +1,7 @@
 import { qualities } from "@/utils/qualities";
 import Lottie from "react-lottie";
 import * as animationData from "../../../public/assets/lotties/hi.json";
+import { Image, Link } from "@nextui-org/react";
 import { useEffect } from "react";
 import { gsap } from "gsap";
 
@@ -28,7 +29,6 @@ export default function About() {
           duration: 0.6,
         }
       );
-     
     });
     return () => ctx.revert();
   }, []);
