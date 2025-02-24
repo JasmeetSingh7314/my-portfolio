@@ -50,30 +50,45 @@ export default function About() {
             </h3>
             <span className=" words text-wrap  mt-6 mb-8  md:text-xl xl:text-lg 2xl:text-xl text-white/[0.76] sm:mb-12 text-urbanist">
               <span className="mb-8">
-                Hey, I am Jasmeet! I grew up in the beautiful city of Delhi and
-                love all things creative. From the humid forests to the vibrant
-                city streets, my surroundings have always fueled my passion for
-                creativeness and coding. <br />
+                Hey, I’m Jasmeet—a developer passionate about building
+                innovative solutions at the intersection of{" "}
+                <span className="text-yellow-400">
+                  Frontend Development, AI, and Web3.{" "}
+                </span>
+                <br />
+                <br />
+                I’m the creator of{" "}
+                <span className="text-purple-400 font-bold">Tutor.ai</span>, an
+                AI-powered platform that revolutionizes language learning by
+                generating personalized lessons, quizzes, and gamified
+                experiences.
+                <br /> To bring it to life, I leveraged Python, Pydantic, and
+                creative problem-solving (like integrating OpenRouter when
+                OpenAI wasn’t an option).
+                <br />
+                <br />
+                I’m also the co-founder of{" "}
+                <Link
+                  href="www.playowl.xyz"
+                  className="text-red-500 font-bold text-xl"
+                >
+                  Owl
+                </Link>
+                , a blockchain-based gaming marketplace that solves real-world
+                problems in the gaming industry. Our work on Owl won 1st place
+                at TezAsia2k23 and secured a{" "}
+                <span className="text-yellow-400">grant</span>, showcasing my
+                ability to deliver impactful, decentralized solutions.
+                <br />
+                <br />
+                When I’m not coding, you’ll find me exploring my love for
+                wildlife photography or diving into topics like history and
+                emerging tech.
+                <br /> Let’s push the boundaries of what’s possible in the
+                digital world together!
               </span>
-              As a self-taught developer, I found my calling in blending
-              artistic flair with technical skill.
-              <br /> My journey has led me to specialize in{" "}
-              <span className="text-yellow-400/[0.98] mx-2 text-2xl">
-                front-end development{" "}
-              </span>
-              , where I craft interactive experiences that are not just
-              functional, but also visually stunning. <br /> When I am not
-              coding, you will find me exploring various topics ranging from
-              History to Wildlife. I love wildlife and am a secret amateur
-              photographer myself check out my work{" "}
-              <a href="/photos" className="italic text-gray-200">
-                here.{" "}
-              </a>
+
               <br />
-              <span className="mt-6">
-                Join me as I continue to push the boundaries of what is possible
-                in the digital world!
-              </span>
             </span>
 
             <div className="mt-12 space-y-12"></div>

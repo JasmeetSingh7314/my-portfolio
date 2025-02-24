@@ -6,8 +6,17 @@ export const projects = [
       "The ultimate platform where you can buy and sell games.",
     description:
       "A dApp for video game distribution employing NFT licensing. This led us to securing the highest position out of 12,000 participants in the esteemed TezAsia 2k23 hackathon",
-    imgSrc: "/assets/projects/Owl.jpg",
-    link: "https://github.com/JasmeetSingh7314/Owl",
+    imgSrc: "/assets/projects/Owl.png",
+    link: "https://github.com/SurkhabSingh/OWL-diamante",
+  },
+  {
+    title: "Tutor AI",
+    tag: "Your personalized AI-powered language learning tutor",
+    descriptionHeader: "Revolutionizing language learning with AI.",
+    description:
+      "Tutor AI is a smart, adaptive platform that generates personalized lessons, quizzes, and gamified experiences tailored to each user. Built with ReactJS, NodeJS, Python, and Pydantic, it combines the accessibility of YouTube with the precision of AI-driven education. Overcoming API limitations, I integrated OpenRouter and Deepseek to deliver a seamless learning experience.",
+    imgSrc: "/assets/projects/tutorai.png",
+    link: "https://github.com/JasmeetSingh7314/Tutor.ai",
   },
   {
     title: "ADManager",
