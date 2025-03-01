@@ -19,6 +19,15 @@ export const projects = [
     link: "https://github.com/JasmeetSingh7314/Tutor.ai",
   },
   {
+    title: "GameMatch",
+    tag: "Your Personal Game Recommender",
+    descriptionHeader: "Intelligent Game Recommendation System",
+    description:
+      "GameMatch revolutionizes how gamers discover their next favorite title. Built with advanced data processing and machine learning techniques, it ingests .csv game data using pandas, extracts features with CountVectorizer for text vectorization, and computes similarities between 5000-dimensional game vectors using Cosine Similarity. The system preprocesses text data with the Porter Stemming algorithm, ensuring precise and personalized recommendations for every user.",
+    imgSrc: "/assets/projects/GameMatch.jpg",
+    link: "https://github.com/JasmeetSingh7314/Recommendation-System",
+  },
+  {
     title: "ADManager",
     tag: "Manage Ads on the go",
     descriptionHeader: "Platform for Ad Management for creators.",
