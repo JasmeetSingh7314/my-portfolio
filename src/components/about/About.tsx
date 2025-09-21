@@ -49,43 +49,97 @@ export default function About() {
               Background
             </h3>
             <span className=" words text-wrap  mt-6 mb-8  md:text-xl xl:text-lg 2xl:text-xl text-white/[0.76] sm:mb-12 text-urbanist">
-              <span className="mb-8">
-                Hey, I’m Jasmeet—a developer passionate about building
-                innovative solutions at the intersection of{" "}
-                <span className="text-yellow-400">
-                  Frontend Development, AI, and Web3.{" "}
+              <span className=" words text-wrap  mt-6 mb-8  md:text-xl xl:text-lg 2xl:text-xl text-white/[0.76] sm:mb-12 text-urbanist">
+                <span className="mb-8">
+                  Hey, I’m Jasmeet, a developer passionate about building
+                  innovative solutions at the intersection of{" "}
+                  <span className="text-yellow-400">
+                    Frontend Development, AI, and Web3.{" "}
+                  </span>
+                  <br />
+                  <br />
+                  Most recently, I worked at{" "}
+                  <span className="text-green-400 font-bold">Growhut</span> on
+                  their flagship product Surge—real-time collaboration software
+                  used by hundreds of concurrent users. My contributions
+                  included:
+                  <br />
+                  <br />
+                  <ul className="list-disc list-inside space-y-2 text-white/[0.76] ml-4">
+                    <li>
+                      Built{" "}
+                      <span className="text-yellow-400">call reactions</span>{" "}
+                      with synchronized sound design, optimized animations, and
+                      resilient performance even on poor networks (via audio
+                      preloading and prewarming).
+                    </li>
+                    <li>
+                      Implemented{" "}
+                      <span className="text-yellow-400">
+                        presence indicators
+                      </span>{" "}
+                      (like WhatsApp’s last seen/online) for improved real-time
+                      awareness.
+                    </li>
+                    <li>
+                      Developed{" "}
+                      <span className="text-yellow-400">ephemeral chats</span>{" "}
+                      for conferences and meetings using Zustand logic, enabling
+                      temporary DMs and group conversations.
+                    </li>
+                    <li>
+                      Integrated{" "}
+                      <span className="text-yellow-400">
+                        video backgrounds and blur effects
+                      </span>{" "}
+                      by combining optimized frontend logic with LiveKit
+                      systems.
+                    </li>
+                    <li>
+                      Contributed to{" "}
+                      <span className="text-yellow-400">ShieldX</span> with a
+                      template management system and multiple production-ready
+                      features.
+                    </li>
+                  </ul>
+                  <br />
+                  Before that, I created{" "}
+                  <span className="text-purple-400 font-bold">
+                    Tutor.ai
+                  </span>{" "}
+                  and co-founded{" "}
+                  <Link
+                    href="www.playowl.xyz"
+                    className="text-red-500 font-bold text-xl"
+                  >
+                    Owl
+                  </Link>
+                  . Tutor.ai is an AI-powered system built with Python (FastAPI)
+                  and Node.js where AI acts as a teacher—generating lessons from
+                  a learner’s weaknesses and helping track progress with
+                  accuracy.
+                  <br />
+                  <br /> Owl is a blockchain-based gaming marketplace that won{" "}
+                  <span className="text-yellow-400">
+                    1st place at TezAsia2k23
+                  </span>
+                  , secured a <span className="text-yellow-400">grant</span>,
+                  and was developed further to explore real-world adoption.
+                  Together, these projects showcase my ability to blend{" "}
+                  <span className="text-yellow-400">
+                    AI, frontend, and blockchain
+                  </span>{" "}
+                  into impactful solutions.
+                  <br />
+                  <br />
+                  When I’m not coding, you’ll find me exploring my love for
+                  wildlife photography or diving into topics like history and
+                  emerging tech.
+                  <br /> Let’s push the boundaries of what’s possible in the
+                  digital world together!
                 </span>
+
                 <br />
-                <br />
-                I’m the creator of{" "}
-                <span className="text-purple-400 font-bold">Tutor.ai</span>, an
-                AI-powered platform that revolutionizes language learning by
-                generating personalized lessons, quizzes, and gamified
-                experiences.
-                <br /> To bring it to life, I leveraged Python, Pydantic, and
-                creative problem-solving (like integrating OpenRouter when
-                OpenAI wasn’t an option).
-                <br />
-                <br />
-                I’m also the co-founder of{" "}
-                <Link
-                  href="www.playowl.xyz"
-                  className="text-red-500 font-bold text-xl"
-                >
-                  Owl
-                </Link>
-                , a blockchain-based gaming marketplace that solves real-world
-                problems in the gaming industry. Our work on Owl won 1st place
-                at TezAsia2k23 and secured a{" "}
-                <span className="text-yellow-400">grant</span>, showcasing my
-                ability to deliver impactful, decentralized solutions.
-                <br />
-                <br />
-                When I’m not coding, you’ll find me exploring my love for
-                wildlife photography or diving into topics like history and
-                emerging tech.
-                <br /> Let’s push the boundaries of what’s possible in the
-                digital world together!
               </span>
 
               <br />
@@ -95,7 +149,7 @@ export default function About() {
           </div>
           <div
             aria-hidden="true"
-            className=" lg:flex  hidden    lg:mt-0 mb-8 lg:px-48 lg:pb-12 xl:px-0  h-full"
+            className=" lg:flex  hidden max-h-[668px]    lg:mt-0 mb-8 lg:px-48 lg:pb-12 xl:px-0  h-full"
           >
             <Lottie options={defaultOptions} />
           </div>

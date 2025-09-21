@@ -36,15 +36,15 @@ export default function ResumePage() {
         <a
           href="/assets/Resume.pdf"
           target="_blank"
-          download="Jasmeet_Software_Developer"
+          download="Jasmeet_Software_Engineer"
         >
           <Button
             variant="shadow"
-            className="flex justify-between w-[150px]"
+            className="flex justify-between "
             type="button"
           >
             <BsDownload />
-            &nbsp; Download CV
+            &nbsp; Download Resume
           </Button>
         </a>
       </div>
