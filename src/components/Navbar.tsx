@@ -6,7 +6,6 @@ import {
   NavbarContent,
   NavbarItem,
   Link,
-  Button,
   NavbarMenuToggle,
   NavbarMenu,
   NavbarMenuItem,
@@ -45,7 +44,13 @@ export default function NavbarComponent() {
     <Navbar
       shouldHideOnScroll
       onMenuOpenChange={setIsMenuOpen}
-      className="scrollbar-none lg:w-full xl:w-[87vw]"
+      className="scrollbar-none w-full lg:w-full"
+      classNames={{
+        wrapper:[
+          "max-w-full w-full lg:w-full",
+          "lg:px-8 xl:px-32 2xl:px-44 medium:px-40 extra:px-[18rem] sm:px-2 xs:px-2"
+        ]
+      }}
     >
       <NavbarContent>
         <NavbarMenuToggle
@@ -54,7 +59,7 @@ export default function NavbarComponent() {
         />
         <NavbarBrand>
           <Link href="/" className="text-white  hidden lg:flex">
-            <p className="font-bold text-inherit text-[12px] ml-0 extra:-ml-32 tracking-widest ">
+            <p className="font-bold text-inherit text-[12px] ml-0  tracking-widest ">
               JASMEET
             </p>
 
@@ -66,7 +71,7 @@ export default function NavbarComponent() {
         </NavbarBrand>
       </NavbarContent>
 
-      <NavbarContent className="hidden lg:flex gap-4" justify="center">
+      <NavbarContent className="hidden lg:flex gap-4 w-full" justify="end">
         <NavbarItem>
           <Link color="foreground" href="/about" className=" ">
             About
@@ -89,6 +94,7 @@ export default function NavbarComponent() {
           </Link>
         </NavbarItem>
       </NavbarContent>
+
       <NavbarMenu>
         {menuItems.map((item, index) => (
           <NavbarMenuItem key={`${item}-${index}`}>
